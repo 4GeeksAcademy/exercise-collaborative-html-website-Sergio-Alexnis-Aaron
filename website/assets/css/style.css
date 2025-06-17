@@ -1,5 +1,6 @@
 body {
     background: white;
+    padding : 0px !important;
 }
 
 .header-tagline {
@@ -17,4 +18,9 @@ body {
     object-fit: cover;
 }
 
+
+.contenido-important {
+    width: 90vw;
+
+}
 

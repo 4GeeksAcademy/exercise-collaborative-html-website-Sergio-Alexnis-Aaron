@@ -1,14 +1,14 @@
 <!-- your html code here -->
 
-  <div class="container text-start">
-    <h1 class="fw-bold">Contact</h1>
-    <p class="lead">
-      Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. 
-      Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-    </p>
+<div>
+  <h1 class="fw-bold">Contact</h1>
+  <p class="lead">
+    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+  </p>
 
-    <div class="row justify-content-center">
-      <div class="col-md-6 contact-form text-start">
+  <!--<div class="row justify-content-center">
+      <div class="col contact-form text-center">
         <form>
           <div class="mb-3">
             <label for="email" class="form-label fw-bold">Your E-mail</label>
@@ -22,4 +22,23 @@
         </form>
       </div>
     </div>
+  </div> -->
+  <div class=" d-grid justify-content-center">
+    <div class="mb-3 row ">
+      <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="text" class=" form-control" id="staticEmail" placeholder="Your email" value="">
+      </div>
+    </div>
+    <div class="mb-3 row ">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Your message</label>
+      <div class="col-sm-10">
+        <textarea type="text" class="form-control" id="inputPassword"
+          placeholder="Please enter your message here..."></textarea>
+      </div>
+    </div>
+    <div class="d-grid justify-content-md-end">
+      <button type="button" class="btn btn-primary ">Primary</button>
+    </div>
+
   </div>

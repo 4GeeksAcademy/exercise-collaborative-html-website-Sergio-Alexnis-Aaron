@@ -1,5 +1,6 @@
-body{
+body {
     background: white;
+    padding : 0px !important;
 }
 
 
@@ -42,3 +43,19 @@ body{
         height: 15rem;
     }
 }
+
+
+.card-img-circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.contenido-important {
+    width: 80vw;
+
+}
+
+

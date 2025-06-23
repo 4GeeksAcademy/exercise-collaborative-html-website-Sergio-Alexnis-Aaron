@@ -58,4 +58,12 @@ body {
 
 }
 
+.responsive-form {
+  width: 100%;
+}
 
+@media (min-width: 768px) {
+  .responsive-form {
+    width: 75%;
+  }
+}

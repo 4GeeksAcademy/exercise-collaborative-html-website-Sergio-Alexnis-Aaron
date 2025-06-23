@@ -8,15 +8,15 @@ body {
     background-image: url(../img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 50rem;
     gap: 2em;
-    padding: 0 1rem;
+    padding: 2rem;
 }
 
 .header-tagline h1 {
@@ -45,17 +45,18 @@ body {
 }
 
 
-.card-img-circle {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-
 .contenido-important {
     width: 80vw;
 
 }
 
 
+.responsive-form {
+  width: 100%; 
+}
+
+@media (min-width: 992px) {
+  .responsive-form {
+    width: 75%; 
+  }
+}
